@@ -33,7 +33,6 @@ public class ProdutosController {
 		
 		if(produto.getTitulo().isEmpty()){
 			System.out.println("Titulo vazio");
-			System.out.println("Titulo vazio");
 			return form();
 		}
 		produtoDAO.gravar(produto);
